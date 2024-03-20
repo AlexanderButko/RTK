@@ -1,0 +1,33 @@
+.pictureFull{
+    position: fixed;
+    top: 10vh;
+    left: 30vw;
+}
+.pictureFullPhotoContainer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.pictureHide{
+    display: none;
+}
+.pictureThumbnail{
+
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.pictureThumbnail:hover{
+    cursor: pointer;
+}
+.title{
+
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}

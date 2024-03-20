@@ -1,0 +1,36 @@
+.active_nav{
+    background-color: orange;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10rem;
+    border-top: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.navbar > h1{
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+}
+
+
+.navbar_items{
+    display: flex;
+    height: 20%;
+    list-style: none;
+    border-top: 1px solid lightgray;
+}
+.navbar_items > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    min-width: 10rem;
+    cursor: pointer;
+}
+li > a{
+    text-decoration: black none;
+
+}

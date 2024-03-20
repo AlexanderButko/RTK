@@ -1,0 +1,24 @@
+.post_item{
+    display: flex;
+    flex-direction: column;
+    border : 5px solid rgba(0, 0, 0, 0.6);
+    padding : 10px 10px 10px 10px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    align-items: center;
+    word-break: break-word;
+}
+
+.post_body{
+    width: 75%;
+
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
