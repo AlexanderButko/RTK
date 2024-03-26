@@ -11,7 +11,6 @@ const Navbar : FC = () => {
     function highlightNav( url: string, e : React.MouseEvent<HTMLLIElement>) : void {
 
         setActiveNav(url);
-       // (e.target as HTMLLIElement).className = styles.active_nav;
         navigate(url);
     }
 

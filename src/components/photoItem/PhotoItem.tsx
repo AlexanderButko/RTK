@@ -13,7 +13,6 @@ const PhotoItem : FC<PhotoItemProps> = ({photo}) => {
     return (
         <div className={styles.container}>
             <div className={styles.title}>{photo.id}.{photo.title}</div>
-            {/*<iframe className={styles.picture} src={photo.url}/>*/}
             <img className={styles.pictureThumbnail}
                  src={photo.thumbnailUrl}
                  onClick={() => setVisible(true)}

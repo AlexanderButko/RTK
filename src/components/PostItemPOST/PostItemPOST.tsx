@@ -17,10 +17,8 @@ interface PostItemPOSTProps {
 
 const PostItemPOST : FC<PostItemPOSTProps> = ({post, remove, update, title, body, handler }) => {
 
-   // const [visible, setVisible] = useState<boolean>(false)
 
     const handleRemove = () =>{
-        //event.stopPropagation();
         remove(post)
     }
 
